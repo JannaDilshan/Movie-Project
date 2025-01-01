@@ -63,7 +63,7 @@
   </header>
 
   <!-- Hero Section -->
-  <section class="hero-section">
+  <section id="hero-section">
     <div class="slider">
       <div><img src="./assets/images/banner.png" alt="Banner 1"></div>
       <div><img src="./assets/images/header-Slide2.jpg" alt="Banner 2"></div>
@@ -82,7 +82,7 @@
       <h1>Collect your favourites</h1>
       <div class="search-wrapper">
         <i class="fa fa-search" onclick="handleSearch()"></i>
-        <input type="text" id="search-input" placeholder="Search for shows...">
+        <input type="text" id="search-input" placeholder="Search title and add to grid">
       </div>
     </div>
     <hr>
